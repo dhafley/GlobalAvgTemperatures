@@ -6,9 +6,11 @@ system_packages:
   - postgresql-server-dev-all
   - mysql-server
   - sqlite3
-  - libsqlite3-dev  
+  - libsqlite3-dev
   - python-setuptools
+  - python-pip
+  - python-numpy
+  - git
 
 python_packages:
-  - numpy
   - pydruid
